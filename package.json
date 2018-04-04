@@ -1,0 +1,24 @@
+{
+  "name": "zadanie17.3",
+  "version": "1.0.0",
+  "description": "17 - ExpressJS-ekspresowe tworzenie aplikacji w NodeJS<br>\r 17.3 - Route, czyli ścieżka wyznaczona dla użytkownika aplikacji<br>\r Zadanie: Operacje CRUD na pliku JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-szerminski/zadanie17.3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-szerminski/zadanie17.3/issues"
+  },
+  "homepage": "https://github.com/g-szerminski/zadanie17.3#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
