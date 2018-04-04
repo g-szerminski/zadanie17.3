@@ -4,9 +4,9 @@ var app = express();
 
 app.listen(3000);
 
-app.get('/', function (req, res) {
+app.get('/:id', function (req, res) {
     console.log('Otrzymałem żądanie GET do strony głównej');
-    res.send('Hello GET!');
+    res.send('Identyfikator, który został dopisany to ' + req.params.id);
 });
 
 app.post('/', function (req, res) {
